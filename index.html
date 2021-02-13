@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Moruki</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <div class="navbar">
+      <div class="container flex navbar__flex">
+        <h1 class="navbar__logo">Moruki</h1>
+        <nav>
+          <ul class="navbar__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="docs.html">Docs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Showcase -->
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase__text">
+          <h1 class="showcase__heading">Easier Deployment</h1>
+          <p class="showcase__content">
+            Deploy web apps of all kinds, from large scale enterprise APIs to
+            static websites for individuals. Fill out the form to try a demo of
+            our platform.
+          </p>
+          <a href="features.html" class="btn btn--outline">Read More</a>
+        </div>
+        <div class="showcase__form card">
+          <h2>Request a Demo</h2>
+          <form>
+            <div class="showcase__form-control">
+              <input type="text" name="name" placeholder="Name" required />
+            </div>
+
+            <div class="showcase__form-control">
+              <input
+                type="text"
+                name="company"
+                placeholder="Company Name"
+                required
+              />
+            </div>
+
+            <div class="showcase__form-control">
+              <input type="email" name="emaill" placeholder="Email" required />
+            </div>
+
+            <input type="submit" class="btn btn--primary" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats__heading text-center my-1">
+          Welcome to the best platform for building applications of all types
+          with modern architecture and scaling.
+        </h3>
+
+        <div class="grid grid-3 text-center my-4">
+          <div>
+            <i class="fas fa-server fa-3x"></i>
+            <h3 class="stats__content-heading">10,345,700</h3>
+            <p class="text-secondary stats__content-text">Deployments</p>
+          </div>
+
+          <div>
+            <i class="fas fa-upload fa-3x"></i>
+            <h3 class="stats__content-heading">900 TB</h3>
+            <p class="text-secondary stats__content-text">Published</p>
+          </div>
+
+          <div>
+            <i class="fas fa-project-diagram fa-3x"></i>
+            <h3 class="stats__content-heading">2,400,238</h3>
+            <p class="text-secondary stats__content-text">Projects</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cli -->
+    <div class="cli">
+      <div class="container grid cli__grid">
+        <img src="images/cli.png" alt="" />
+        <div class="card">
+          <h3>Easy to use, cross platform CLI</h3>
+        </div>
+
+        <div class="card">
+          <h3>Deploy in seconds</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cloud -->
+    <div class="cloud bg-primary my-2 py-2">
+      <div class="container grid cloud__grid">
+        <div class="text-center">
+          <h2 class="lg">Extreme Cloud Hosting</h2>
+          <p class="lead my-1">
+            Cloud hosting like you never seen. Fast, efficient and scalable
+          </p>
+          <a href="features.html" class="btn btn--dark">Read More</a>
+        </div>
+
+        <img src="/images/cloud.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Languages -->
+    <div class="languages">
+      <h2 class="md text-center my-2">Supported Languages</h2>
+      <div class="container flex languages__flex">
+        <div class="card">
+          <h4 class="languages__card-title">Nodejs</h4>
+          <img src="images/logos/node.png" alt="" />
+        </div>
+        <div class="card">
+          <h4 class="languages__card-title">python</h4>
+          <img src="images/logos/python.png" alt="" />
+        </div>
+        <div class="card">
+          <h4 class="languages__card-title">C#</h4>
+          <img src="images/logos/csharp.png" alt="" />
+        </div>
+        <div class="card">
+          <h4 class="languages__card-title">Ruby</h4>
+          <img src="images/logos/ruby.png" alt="" />
+        </div>
+        <div class="card">
+          <h4 class="languages__card-title">PHP</h4>
+          <img src="images/logos/php.png" alt="" />
+        </div>
+        <div class="card">
+          <h4 class="languages__card-title">Scala</h4>
+          <img src="images/logos/scala.png" alt="" />
+        </div>
+        <div class="card">
+          <h4 class="languages__card-title">Clojure</h4>
+          <img src="images/logos/clojure.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>Moruki</h1>
+          <p>Copyright &copy; 2021</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="docs.html">Docs</a></li>
+          </ul>
+        </nav>
+        <div class="footer__social">
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-github fa-2x"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
